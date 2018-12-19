@@ -1,0 +1,19 @@
+#board {
+    display:grid;
+} 
+
+img {
+    height: 15px;
+    width: 15px;
+    display: block;
+    margin-left: -5px;
+}
+
+
+h1 {
+    color: #da9785;
+}
+
+body {
+    color: #7e7175;
+}

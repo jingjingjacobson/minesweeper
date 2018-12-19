@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="a3.css">
+    <title>Minesweeper</title>
+</head>
+
+<body>
+    <h1>Minesweeper</h1>
+    <div class="select_size">
+        <p>
+            Number of Rows: <input type="number" name="rows" id="rows" value="16" step="1" max="30" min="8">
+            Number of Columns: <input type="number" name="columns" id="columns" value="16" step="1" max="40" min="8">
+            Number of Mines: <input type="number" name="mines" id="mines" value="40" step="1" max="63" min="1"> 
+            <button id="go">Start/Restart</button>
+        </p>
+        </select>
+    </div>
+    <div><p>Works best in Google Chrome :)</p></div>
+    <div id="stats">
+        <p id="mines-left"></p>
+        <p id = "timer">Time: </p>
+        <p id = "highscore">First Place: NA Second Place: NA Third Place: NA</p>
+
+    </div>
+    
+
+
+    <div id="game">
+        <div id="board"></div>
+    </div>
+</body>
+
+</html>
